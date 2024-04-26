@@ -1,0 +1,10 @@
+langchain
+pinecone-client
+streamlit
+streamlit_chat
+langchain_community
+sentence_transformers
+spacy
+PyPDF2
+llama_index
+torch
