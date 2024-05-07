@@ -17,7 +17,8 @@ def load_docs(directory):
 
 
 # load document
-documents = load_docs('your pdf file here')
+# not use this if you are using document processing else uncomment
+# documents = load_docs('your pdf file here')
 
 
 # splitting document with chunk_size
@@ -37,7 +38,7 @@ embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
 
 # Vector DataBase
 # initialize pinecone
-environment = "gcp-starter"
+environment = "your environment"
 pc = pinecone.Pinecone(
     api_key=os.environ['PINECONE_API_KEY'],
     environment=environment

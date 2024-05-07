@@ -5,7 +5,7 @@ import os
 from langchain_community.llms import Ollama
 
 
-PINECONE_API_KEY = "67b6cd6e-8c69-4a19-98e6-88d0256861d4"
+PINECONE_API_KEY = "your pinecone api key"
 os.environ['PINECONE_API_KEY'] = PINECONE_API_KEY
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
